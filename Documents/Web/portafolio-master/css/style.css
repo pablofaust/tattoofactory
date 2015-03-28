@@ -1,0 +1,312 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,300,100);
+
+/* Parte de CSS que se aplica a toda la página */
+
+h1 {
+	font-size: 24px
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h1, h2 {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-family: 'Montserrat', Verdana, sans-serif;
+}
+
+/* MENU */
+.navbar-default {
+	background: #F2F2F2;
+	color: #BFBFBF;
+}
+.navbar-brand {
+	padding: 20px;
+	height: 100%;
+
+}
+.navbar-default .navbar-nav>li>a {
+	padding: 20px;
+	color: #BFBFBF;
+	border:none;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.open>a  {
+	background: #000;
+	color: #fff;
+}
+.navbar-default .navbar-nav>.active>a:hover,  
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, 
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus  {
+	background: #BFBFBF;
+	color: #fff;
+}
+
+/* SLIDER */
+.slider {
+	position: relative;
+  height: 400px;
+  width: 100%;
+}
+.slider .slide {
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  position: absolute;
+  display: none;
+}
+.slider .slide img {
+  min-height: inherit;
+  min-width: inherit;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.chevrons {
+	position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  height: 0;
+  font-size: 40px;
+}
+.chevrons>span {
+	position: absolute;
+	z-index: 100;
+}
+.chevrons .chevron-left {
+	left: 10px;
+}
+.chevrons .chevron-right{
+	right: 10px;
+}
+
+/* BLOCKS */
+.blocks {
+	padding: 20px 0;
+}
+.blocks .column>div {
+	overflow: hidden;
+	height: 150px;
+	margin-bottom: 20px;
+	background: no-repeat center center #0ff;
+	background-size: cover;
+}
+.blocks .column>div>p {
+	padding: 10px;
+}
+.blocks img {
+	/*width: 100%;*/
+}
+
+/* FOOTER */
+.footer {
+	background: #fff;
+	padding: 10px;
+}
+.footer-spacer {
+	height: 40px;
+}
+
+
+/* ----------- */
+
+/* MENU */
+
+.navbar {
+	height: 80px;
+	border-bottom: dashed 1px #BFBFBF;
+}
+
+.navbar-header {
+	height: 100%;
+}
+
+.navbar-brand {
+	vertical-align: middle;
+}
+
+.navbar-brand img {
+	display: inline-block;
+	height: 150%;
+	margin-top: -10px;
+	vertical-align: middle;
+}
+
+.navbar-brand h1 {
+	display: inline-block;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-left: 10px;
+	vertical-align: middle;
+	margin-top: -10px;
+	color: #BFBFBF;
+}
+
+.navbar h1:hover {
+	color: #929292;
+}
+
+.navbar-right {
+	margin-top: 8px;
+	height: 100%;
+}
+
+.navbar-right li {
+	margin-right: 50px;
+}
+
+.dropdown-menu {
+	background-color: #F2F2F2;
+	border: dashed 1px #BFBFBF;
+}
+
+.dropdown-menu>li>a {
+	color: #BFBFBF;
+}
+
+.slider-displayer {
+	padding: 0;
+	padding-bottom: 2em;
+}
+
+/* SLIDER */
+
+.slider {
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	height: 25em;
+	top: 2em;
+	margin-bottom: 2em;
+}
+
+.slider img {
+	border: dashed 1px #BFBFBF;
+}
+
+.chevrons {
+	color: #BFBFBF;
+	cursor: pointer;
+}
+
+.chevron-left:hover, .chevron-right:hover {
+	color: #929292;
+}
+
+/* DESCRIPCION */
+
+.blocks {
+	position: relative;
+}
+
+.blocks .column>div {
+	height: 15em;
+	background-color: #F2F2F2;
+	border: dashed 1px #BFBFBF;
+	text-align: center;
+	padding: 10px;
+	color: #BFBFBF;
+}
+
+.ligne {
+	border-bottom: dashed 1px #BFBFBF;
+	margin-top: 20px;
+}
+
+/* FOOTER */
+
+.footer {
+	text-align: right;
+	padding: 5px;
+	background-color: #F2F2F2;
+	color: #BFBFBF;
+	border-top: dashed 1px #BFBFBF;
+}
+
+.footer a {
+	color: #929292;
+}
+
+.footer p {
+	margin: 5px 5px 10px 0px ;
+}
+
+/* GALERY */
+
+.images {
+	padding: 20px 0;
+}
+.images .column>div {
+	overflow: hidden;
+	height: 200px;
+	margin-bottom: 20px;
+	background: no-repeat center center;
+	background-size: cover;
+	border: dashed 1px #BFBFBF;
+}
+.images .column>div>p {
+	padding: 10px;
+}
+.images img {
+	width: 100%;
+}
+
+/* PROYECTOS */
+
+.title {
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+.title div {
+	width: 80%;
+	height: 5em;
+	margin-left: auto;
+	margin-right: auto;
+	border: dashed 1px #BFBFBF;
+	background-color: #F2F2F2;
+	padding: 5px 0px 0px 10px;
+	color: #BFBFBF;
+}
+
+.title div h2 {
+	font-size: 18px;
+}
+
+.title div h3 {
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 200;
+}
+
+.presentation {
+	padding-bottom: 2em;
+}
+
+.square {
+	width: 80%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: dashed 1px #BFBFBF;
+	background-color: #F2F2F2;
+	padding: 5px 10px 20px 10px;
+	color: #BFBFBF;
+}	
+
+.presentation .ligne {
+	border: none;
+	border-bottom: dashed 1px #BFBFBF;
+}
