@@ -1,0 +1,458 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Montserrat, Roboto, "Open Sans", sans-serif;
+    position: relative; 
+    overflow-x: hidden;
+}
+.wrapper {
+	position: relative;
+	height: 20%;
+	overflow-x: hidden;
+}
+
+
+h2 {
+	font-family: Montserrat, Roboto, "Open Sans", sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.87);
+}
+
+h3 {
+	font-family: Montserrat, Roboto, "Open Sans", sans-serif;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+h4 {
+	font-family: Montserrat, Roboto, "Open Sans", sans-serif;
+	font-size: 0.9em;
+	font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+/*@media (min-width : 1024px) {*/
+
+/* NAVBAR */
+
+.navbar {
+	width: 100%;
+	height: 20%;
+	background-color: white;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.5);
+	z-index: 10;
+	position: fixed;
+}
+
+.logo {
+	cursor: pointer;
+	width: 260px;
+	height: 80px;
+	margin: 1.7% 0% 0% 40%;
+	position: relative;
+	float: left;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+}
+
+.menu {
+	list-style-type: none;
+}
+
+.menu:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+.menu a:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+li {
+	outline: none;
+	text-decoration: none;
+}
+
+.lien1 {
+	width: 14%;
+	height: 20%;
+	float: none;
+	margin-left: 3%;
+	top: 22%;
+	position: absolute;
+	text-align: center;
+}
+
+
+.lien2 {
+	width: 14%;
+	height: 20%;
+	float: none;
+	margin-left: 20%;
+	top: 22%;
+	position: absolute;
+	text-align: center;
+}
+
+.lien3 {
+	width: 14%;
+	height: 20%;
+	float: none;
+	margin-left: 62%;
+	top: 22%;
+	position: absolute;
+	text-align: center;
+}
+
+.lien1 h2:hover, .lien2 h2:hover, .lien3 h2:hover {
+	color: #2196F3;
+}
+
+.lien1 h2:focus, .lien2 h2:focus, .lien3 h2:focus, .lien1 h2:visited, .lien2 h2:visited, .lien3 h2:visited {
+	color: #1976D2;
+	outline: none;
+	text-decoration: none;
+}
+
+.lien4 {
+	width: 14%;
+	height: 20%;
+	float: none;
+	margin-left: 79%;
+	top: 22%;
+	position: absolute;
+	text-align: center;
+}
+
+.lien4 h2:hover {
+	color: #D32F2F;
+}
+
+#dropdown-button {
+	display: none;
+}
+
+.menu a:hover {
+	text-decoration: none;
+	color: #1976D2;
+}
+
+/* TITRE 1 */
+
+.section-bleue {
+	width: 102%;
+	height: 17%;
+	background-color: #42A5F5;
+	z-index: 4;
+	position: relative;
+	-webkit-transform: rotate(-2deg);
+	left: -1%;
+	top: 17%;
+}
+
+.titre {
+	position: absolute;
+	height: 50px;
+	width: 220;
+	color: #fff;
+	-webkit-transform: rotate(2deg);
+	margin: 1.5% 0% 0% 9%;
+	border-bottom: solid 1px #fff;
+	text-transform: uppercase;
+}
+
+/* CORPS 1 */
+
+.produits {
+	width: 100%;
+	height: 43%;
+	background-color: #fff;
+	z-index: 2;
+	position: relative;
+	top: 20%;
+}
+
+.img1 {
+  	position: absolute;
+  	height: 80%;
+ 	width: 19%;
+  	margin: 2% 0% 0% 11%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+}
+
+.img2 {
+  	position: absolute;
+  	height: 90%;
+  	width: 21%;
+  	margin: 1% 0% 0% 39%;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+}
+
+.img3 {
+ 	height: 100%;
+  	width: 23%;
+  	margin: 0% 0% 0% 70%;
+  	position: absolute;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+}
+
+/* SUITE */
+
+.section-rouge-1 {
+	width: 102%;
+	height: 20%;
+	background-color: #EF5350;
+/*	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.5) inset;*/
+	z-index: 4;
+	position: relative;
+	position: relative;
+	-webkit-transform: rotate(1deg);
+	left: -1%;
+	top: 22%;
+}
+
+
+.suite {
+	position: relative;
+	margin: 1% 0% 0% 44%;
+	padding: 0px 20px 0px 20px;
+	font-family: Montserrat;
+	text-transform: uppercase;
+	font-size: 1em;
+	background-color: #fff;
+	border: none;
+	color: #EF5350;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+	-webkit-transform: rotate(-1deg);
+}
+
+.suite:hover {
+	background-color: #F2F2F2;
+	cursor: pointer;
+	color: #D32F2F;
+}
+
+.suite:focus {
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5) inset;
+	outline: none;
+	border: none;
+}
+
+/* TITRE 2 */
+
+.section-rouge-2 {
+	width: 102%;
+	height: 17%;
+	background-color: #EF5350;
+	z-index: 3;
+	position: relative;
+	-webkit-transform: rotate(-1deg);
+	left: -1%;
+	top: 14%;
+}
+
+.titre-2 {
+	position: absolute;
+	height: 50px;
+	width: 220;
+	color: #fff;
+	-webkit-transform: rotate(1deg);
+	margin: 3.5% 0% 0% 9%;
+
+}
+
+/* CORPS 2 */
+
+.devis {
+	width: 100%;
+	height: 83%;
+	background-color: #fff;
+	z-index: 0;
+}
+
+/* FORMULAIRE */
+
+.formulaire {
+	width: 50%;
+	height: 68%;
+	margin: 12% 0% 0% 4%;
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+.nom input {
+	margin-left: 57px;
+	height: 25px;
+	width: 250px;
+	padding-left: 5px;
+
+}
+
+.mail input {
+	margin-left: 44px;
+	height: 25px;
+	width: 250px;
+	padding-left: 5px;
+}
+
+.message {
+	padding-top: 15px;
+}
+
+.message textarea {
+	margin-left: 26px;
+	width: 70%;
+	padding-left: 5px;
+}
+
+label, input, textarea {
+	display: inline-block;
+}
+
+.message label, .message textarea {
+	vertical-align: top;
+}
+
+input, textarea {
+	border: solid 1px rgba(0, 0, 0, 0.54);
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.3) inset;
+}
+
+input:focus, textarea:focus {
+	border: solid 1px rgba(66, 165, 245);
+	box-shadow: 0px 1px 2px 0px rgba(66, 165, 245, 0.5) outset;
+	outline-color: #42A5F5;
+}
+
+::-webkit-input-placeholder {
+   color: rgba(0, 0, 0, 0.54);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: rgba(0, 0, 0, 0.54); 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(0, 0, 0, 0.54);  
+}
+
+:-ms-input-placeholder {  
+   color: rgba(0, 0, 0, 0.54);  
+}
+
+.envoyer {
+	margin: 15px 0px 0px 115px;
+	border: none;
+	padding: 6.5px 10px 6.5px 10px;
+	background-color: #42A5F5;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5)
+}
+
+.envoyer:hover {
+	background-color: #2196F3;
+	color: #F2F2F2;
+	border: none;
+	cursor: pointer;
+}
+
+.envoyer:focus {
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.5) inset;
+	outline: none;
+	border: none;
+}
+
+.loi-donnees {
+	display: block;
+	position: relative;
+	height: 15%;
+	width: 100%;
+	text-align: justify;
+	font-size: 0.6em;
+	color: rgba(0, 0, 0, 0.54);
+}
+
+/* CONTACT */
+
+.infos {
+	height: 68%;
+	width: 30%;
+	margin: 11.5% 0% 0% 10%;
+	display: inline-block;
+	color: #1976D2;
+	}
+
+.contact {
+	width: 95px;
+	height: 35px;
+	border-bottom: solid 1px #1976D2;
+	text-transform: uppercase;
+}
+
+.infos p {
+	font-size: 0.8em;
+	line-height: 2em;
+	text-transform: uppercase;
+}
+/*}*/
+
+/* Tablette */
+@media (max-width : 1024px) {
+
+	.logo {
+		margin: 3% 0% 0% 40%;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	#dropdown-button {
+		position: absolute;
+		display: block;
+	}
+
+	.dropdown-toggle {
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    background-size: cover;
+	    -o-background-size: cover;
+	    background-position: center center;
+	}
+
+	.section-bleue {
+		height: 15%;
+	}
+
+	.titre {
+		margin: 2.5% 0% 0% 9%;
+	}
+}
